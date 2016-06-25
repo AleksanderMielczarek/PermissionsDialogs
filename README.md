@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/AleksanderMielczarek/PermissionsDialogs.svg)](https://jitpack.io/#AleksanderMielczarek/PermissionsDialogs)
+
 # PermissionsDialogs
 
 PermissionsDialogs works with great [PermissionsDispatcher](http://hotchemi.github.io/PermissionsDispatcher/).
