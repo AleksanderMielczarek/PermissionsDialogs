@@ -1,0 +1,10 @@
+
+/build/
+/.idea/
+/PermissionsDialogs.iml
+/local.properties
+/.gradle/
+/app/app.iml
+/app/build/
+/permissionsdialogs/permissionsdialogs.iml
+/permissionsdialogs/build/

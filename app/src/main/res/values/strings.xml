@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PermissionsDialogs</string>
+    <string name="dialogOk">OK</string>
+    <string name="dialogCancel">Cancel</string>
+    <string name="rationaleText">Rationale text</string>
+    <string name="neverAskText">Never ask text</string>
+    <string name="cameraAction">Action with permission</string>
+</resources>
