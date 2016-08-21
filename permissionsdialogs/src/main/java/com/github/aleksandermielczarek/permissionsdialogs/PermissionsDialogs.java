@@ -1,5 +1,6 @@
 package com.github.aleksandermielczarek.permissionsdialogs;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -58,6 +59,9 @@ public class PermissionsDialogs {
 
     public static void startAppSettings(Context context) {
         Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        if (!(context instanceof Activity)) {
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        }
         Uri uri = Uri.fromParts("package", context.getPackageName(), null);
         intent.setData(uri);
         if (intent.resolveActivity(context.getPackageManager()) != null) {

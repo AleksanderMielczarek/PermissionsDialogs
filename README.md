@@ -43,6 +43,10 @@ void showNeverAskForCamera() {
  
 ## Changelog
   
+### 0.1.2 (2016-08-21)
+ 
+- allow to start app settings from outside of an activity
+
 ### 0.1.1 (2016-08-21)
  
 - change PermissionsDialogs.startAppSettings(Context context) to public
