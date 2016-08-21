@@ -56,7 +56,7 @@ public class PermissionsDialogs {
                 .show();
     }
 
-    private static void startAppSettings(Context context) {
+    public static void startAppSettings(Context context) {
         Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
         Uri uri = Uri.fromParts("package", context.getPackageName(), null);
         intent.setData(uri);
