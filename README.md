@@ -21,7 +21,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    compile 'com.github.AleksanderMielczarek:PermissionsDialogs:0.1.0'
+    compile 'com.github.AleksanderMielczarek:PermissionsDialogs:0.1.1'
 }
 ```
 
@@ -38,6 +38,12 @@ void showNeverAskForCamera() {
     PermissionsDialogs.showNeverAskAgainDialog(this, R.string.neverAskText, R.string.dialogOk, R.string.dialogCancel);
 }
 ```
+ 
+## Changelog
+  
+### 0.1.1 (2016-08-21)
+ 
+- change PermissionsDialogs.startAppSettings(Context context) to public
  
 ## License
 
