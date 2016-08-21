@@ -23,7 +23,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    compile 'com.github.AleksanderMielczarek:PermissionsDialogs:0.1.1'
+    compile 'com.github.AleksanderMielczarek:PermissionsDialogs:0.1.2'
 }
 ```
 
