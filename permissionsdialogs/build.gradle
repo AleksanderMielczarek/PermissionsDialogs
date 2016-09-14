@@ -5,7 +5,7 @@ group = 'com.github.AleksanderMielczarek'
 
 def versionMajor = 0
 def versionMinor = 1
-def versionFix = 2
+def versionFix = 3
 
 android {
     compileSdkVersion 24

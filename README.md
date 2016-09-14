@@ -23,7 +23,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    compile 'com.github.AleksanderMielczarek:PermissionsDialogs:0.1.1'
+    compile 'com.github.AleksanderMielczarek:PermissionsDialogs:0.1.3'
 }
 ```
 
@@ -42,6 +42,10 @@ void showNeverAskForCamera() {
 ```
  
 ## Changelog
+  
+### 0.1.3 (2016-09-14)
+   
+- update support library
   
 ### 0.1.2 (2016-08-21)
  
